@@ -38,8 +38,8 @@ class Fakultas extends StatelessWidget {
                 Image.network(
                   'https://storage.googleapis.com/cv-skn-bucket/pemvis/Logo-UPI-Universitas-Pendidikan-Indonesia-Fakultas-Pendidikan-Matematika-Dan-Ilmu-Pengetahuan-Alam-F-P-M-I-P-A.png',
                   fit: BoxFit.cover,
-                  height: 70,
-                  width: 70,
+                  height: 100,
+                  width: 100,
                 ),
               ],
             ),
@@ -47,7 +47,7 @@ class Fakultas extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => RincianFakultas()),
+              MaterialPageRoute(builder: (context) => RincianFPMIPA()),
             );
           },
         ),
@@ -77,8 +77,8 @@ class Fakultas extends StatelessWidget {
                 Image.network(
                   'https://storage.googleapis.com/cv-skn-bucket/pemvis/Logo-UPI-Universitas-Pendidikan-Indonesia-Fakultas-Pendidikan-Ilmu-Pengetahuan-Sosial-F-P-I-P-S.png',
                   fit: BoxFit.cover,
-                  height: 70,
-                  width: 70,
+                  height: 100,
+                  width: 100,
                 ),
               ],
             ),
@@ -86,7 +86,7 @@ class Fakultas extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => RincianFakultas()),
+              MaterialPageRoute(builder: (context) => RincianFPIPS()),
             );
           },
         ),

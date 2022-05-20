@@ -38,8 +38,8 @@ class Fasilitas extends StatelessWidget {
                 Image.network(
                   'https://storage.googleapis.com/cv-skn-bucket/pemvis/321-3214636_swim-team-logo-branding-swim-logo%20(2).png',
                   fit: BoxFit.cover,
-                  height: 70,
-                  width: 70,
+                  height: 100,
+                  width: 100,
                 ),
               ],
             ),
@@ -47,7 +47,7 @@ class Fasilitas extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => RincianFasilitas()),
+              MaterialPageRoute(builder: (context) => RincianKolamRenang()),
             );
           },
         ),
@@ -78,8 +78,8 @@ class Fasilitas extends StatelessWidget {
                 Image.network(
                   'https://storage.googleapis.com/cv-skn-bucket/pemvis/gymnasium-fitness-logo-vector-22403964.jpeg',
                   fit: BoxFit.cover,
-                  height: 70,
-                  width: 70,
+                  height: 100,
+                  width: 100,
                 ),
               ],
             ),
@@ -87,7 +87,7 @@ class Fasilitas extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => RincianFasilitas()),
+              MaterialPageRoute(builder: (context) => RincianGymnasium()),
             );
           },
         ),
