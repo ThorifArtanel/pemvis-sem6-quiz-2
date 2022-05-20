@@ -1,12 +1,12 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
 
-class RincianFakultas extends StatelessWidget {
+class RincianFasilitas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Rincian Fakultas'),
+        title: const Text('Rincian Fasilitas'),
       ),
       body: Center(
         child: Column(
@@ -18,8 +18,8 @@ class RincianFakultas extends StatelessWidget {
               height: 70,
               width: 70,
             ),
-            const Text('FPMIPA'),
-            const Text('FPMIPA didirikan....'),
+            const Text('Fasilitas ..'),
+            const Text('Fasilitas untuk mahasiswa yang ....'),
           ],
         ),
       ),
